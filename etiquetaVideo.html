@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiqueta de Video</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <!-- controls permite que el video contenga controles -->
+            <!-- preload ayuda a que el video comience a renderizarse al cargar la pagina -->
+            <!-- #t=10,60 nos ayuda a comenzar y detener un video en un tiempo determinado, en este caso comienza al segundo 10 y termina en el segundo numero 60 -->
+            <video controls preload="auto">
+                <!-- Se utiliza esta forma cuando queremos poner un video en varios formatos  -->
+                <source src="./claseVideo/Video Yovanni sin sonido.m4v#t=10,60">
+                <source src="./claseVideo/Video Yovanni sin sonido.mp4#t=10,60">
+                <source src="./claseVideo/Video Yovanni sin sonido.3gp#t=10,60">
+
+            </video>
+        </section>
+    </main>
+</body>
+
+</html>
