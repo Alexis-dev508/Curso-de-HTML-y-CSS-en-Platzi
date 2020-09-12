@@ -1,0 +1,13 @@
+/*Hermano adyacente
+ h2 + p{
+    color: red;
+} */
+
+/*Hermano General
+ h2~p{
+    color: blue;
+} */
+div > p
+{
+    color: red;
+}
